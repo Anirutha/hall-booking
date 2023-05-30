@@ -1,6 +1,8 @@
-const express = require("express");
+import express from "express"
 const app=express();
 app.use(express.json());
+import dotenv from "dotenv"
+dotenv.config();
 
 //Question 1:Creating a Room with:
 //Ans:
